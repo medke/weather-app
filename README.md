@@ -1,20 +1,19 @@
-<<<<<<< HEAD
-# weather-app
-=======
-# weather_app_zvoove
+# Weather App
 
-A new Flutter project.
+This is a weather application built with Flutter and Dart. It uses the OpenWeatherMap API to fetch real-time weather data.
+
+## Features
+
+- Display current weather information including temperature, humidity, pressure, and wind speed.
+- Automatically update weather information every minute.
+- Pull-to-refresh functionality to manually update weather information.
+- Display weather information for different cities.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK
+- Dart SDK
+- Android Studio or VS Code
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
->>>>>>> b519f5e (init)
