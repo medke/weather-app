@@ -1,4 +1,5 @@
 part of weather_page;
+
 class WeatherDisplay extends StatelessWidget {
   const WeatherDisplay({
     Key? key,

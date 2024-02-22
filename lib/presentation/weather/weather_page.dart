@@ -52,10 +52,8 @@ class WeatherPage extends StatelessWidget {
                     child: CircularProgressIndicator(),
                   ),
                   error: (error) {
-                    print('Error: $error');
-
                     return Center(
-                      child: Text('Error: $error'),
+                      child: Text('Error: ${error.error.message}'),
                     );
                   },
                   orElse: () => const Center(

@@ -1,4 +1,3 @@
-import 'dart:convert';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 /*
@@ -55,6 +54,7 @@ import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'weather_model.freezed.dart';
 part 'weather_model.g.dart';
+
 @freezed
 class WeatherModel with _$WeatherModel {
   const factory WeatherModel({
@@ -74,8 +74,7 @@ class WeatherModel with _$WeatherModel {
     int? cod,
   }) = _WeatherModel;
 
-  factory WeatherModel.fromJson(Map<String, dynamic> json) =>
-      _$WeatherModelFromJson(json);
+  factory WeatherModel.fromJson(Map<String, dynamic> json) => _$WeatherModelFromJson(json);
 }
 
 @freezed
