@@ -11,14 +11,8 @@ import 'package:weather_app_zvoove/data/models/weather/city_model.dart';
 import 'package:weather_app_zvoove/data/models/weather/weather_model.dart';
 import 'package:weather_app_zvoove/enums/weather_condition.dart';
 
-
-part 'weather.freezed.dart';
-
-
-part 'weather_cubit.dart';
-
-part 'weather_state.dart';
-
 part 'models/weather_data.dart';
-
 part 'repository.dart';
+part 'weather.freezed.dart';
+part 'weather_cubit.dart';
+part 'weather_state.dart';

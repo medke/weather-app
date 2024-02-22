@@ -21,6 +21,7 @@ class WeatherCubit extends Cubit<WeatherState> {
     emit(WeatherState.initial(city: newCity));
     getWeather();
   }
+
   void refresh() async {
     _timer?.cancel(); // Cancel the current timer
     _timer = Timer.periodic(const Duration(minutes: 1), (Timer t) => _changeCity()); // Start a new timer

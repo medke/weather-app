@@ -1,6 +1,7 @@
 import 'dart:developer';
 
 import 'package:flutter/foundation.dart' as foundation;
+
 import 'flavors.dart';
 
 printLog(String message, {Object? class_}) {

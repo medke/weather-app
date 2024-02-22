@@ -1,4 +1,4 @@
-class City{
+class City {
   final String cityName;
   final double latitude;
   final double longitude;

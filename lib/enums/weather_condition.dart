@@ -1,4 +1,3 @@
-
 enum WeatherCondition {
   cloudy('cloudy'),
   sunny('sunny'),
